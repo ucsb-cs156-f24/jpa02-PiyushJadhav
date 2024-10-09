@@ -11,15 +11,14 @@ public class TeamTest {
 
     @BeforeEach
     public void setup() {
-        team = new Team("test-team");    
+        team = new Team("test-team");
     }
 
     @Test
     public void getName_returns_correct_name() {
-       assert(team.getName().equals("test-team"));
+        assert (team.getName().equals("test-team"));
     }
 
-   
     // TODO: Add additional tests as needed to get to 100% jacoco line coverage, and
     // 100% mutation coverage (all mutants timed out or killed)
 
